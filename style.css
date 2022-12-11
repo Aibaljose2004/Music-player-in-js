@@ -1,0 +1,209 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+ }
+
+ body {
+     background: rgb(255, 255, 255);
+
+ }
+
+ .section {
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+
+ .box {
+     display: flex;
+     height: 400px;
+     width: 798px;
+     max-width: 798px;
+     border-radius: 16px;
+     background: linear-gradient(174.53deg, #000000 34.2%, rgba(0, 0, 0, 0) 200.46%);box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .inerbox {
+     display: block;
+     width: 90%;
+ }
+
+
+
+ .nav ul {
+     margin-bottom: 20px;
+     list-style-type: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin-top: 20px;
+
+ }
+
+ .nav li {
+     color: gray;
+
+     width: 60px;
+     height: 12px;
+
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+
+     margin: 20px;
+ }
+
+ .musiccover {
+     margin-left: 30px;
+     display: flex;
+
+ }
+
+ 
+     
+ 
+.img-cover{
+    width: 157px;
+    height: 144px;
+    border-radius: 18px;
+}
+ .name h1 {
+
+     font-size: 35px;
+     font-weight: 800;
+     color: aliceblue;
+ }
+
+ .name {
+     font-family: 'Inter';
+     margin-top: 18px;
+     margin-left: 14px;
+ }
+
+ .name h3 {
+     line-height: 15px;
+     color: antiquewhite;
+     font-size: 12px;
+     font-weight: 200;
+     letter-spacing: 0.0575em;
+ }
+
+ .name p {
+     line-height: 15px;
+     margin-top: 6px;
+     font-size: 8px;
+     font-weight: 100;
+     color: antiquewhite;
+ }
+
+ .name h4 {
+     font-family: 'Inter';
+     margin-top: 8px;
+     font-size: 14px;
+     font-weight: 200;
+     color: azure;
+
+ }
+
+ .verticalbox {
+
+     width: 89px;
+
+
+     height: 400px;
+
+     background: rgba(240, 238, 238, 0.07);
+    
+     padding-top: 49px;
+     padding-left: 8px;
+     padding-right: 17px;
+ }
+
+ 
+ .verticalbox img {
+    
+    border-radius: 6px;
+    margin-bottom: 10px;
+     width: 66px;
+     height: 65px;
+ }
+ 
+ .verticalbox img:hover{
+    width: 89px;
+    height: 81px;
+    transition: all .2s ease-in-out;
+    src: url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/artistic-album-cover-design-template-d12ef0296af80b58363dc0deef077ecc_screen.jpg?ts=1561488440") no-repeat;
+ }
+div#timeline1 {
+    width: 390px;
+    background: rgb(255, 255, 255);
+    display: block;
+    border-radius: 10px;
+}
+
+div#seekObj1 {
+    width: 20px;
+    height: 5px;
+    background: rgb(240, 1, 1);
+    border-radius: 30%;
+}
+.start-time{
+    font-size: 8px;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+.plyer{
+    margin-top: 30px;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    width:390px ;
+    
+}
+.end-time{
+    font-size: 8px;
+    color: white;
+    
+}
+.player-controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:30px;
+    width:390px
+}
+
+.button {
+    background-image: url(assets/play.png);
+    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+    background-size: 60px 60px;
+  
+  }
+  .button.paused {
+  
+    background-size: 60px 60px;
+   background-image: url(assets/pause.png);
+  }
+  .button:hover {
+    border-color: transparent transparent transparent #8f8e8e;
+  }
+  .player-controls img{
+    height: 30px;
+    width: 30px;
+   
+  }
